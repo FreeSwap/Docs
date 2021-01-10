@@ -1,0 +1,32 @@
+site_name: FreeSwap DEX Protocol
+repo_url: https://github.com/FreeSwap
+
+site_description: Swap tokens with no fee
+
+markdown_extensions:
+    - extra
+    - tables
+    - toc
+    - mdx_math:
+        enable_dollar_delimiter: True
+    - fenced_code
+    - footnotes
+    - smarty
+
+theme: mkdocs
+
+nav:
+    - Introduction:             index.md
+    - FreeSwap Protocol:        FreeSwap.md
+    - Downloads: 
+        'White Paper':          '../Whitepaper/FreeSwap_en.pdf'
+        'White Paper (CN)':     '../Whitepaper/FreeSwap_cn.pdf'
+    - Others: 
+        Chinese:  https://freeswap.github.io/cn
+        Contact:  contact.md
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+copyright: Copyright &copy; 2020-2025 <a href= "mailto:ldru@163.com">ldru@163.com</a>
+

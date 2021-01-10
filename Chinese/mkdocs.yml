@@ -1,0 +1,29 @@
+site_name: FreeSwap去中心化交易所
+
+markdown_extensions:
+    - extra
+    - tables
+    - toc
+    - mdx_math:
+        enable_dollar_delimiter: True
+    - fenced_code
+    - footnotes
+    - smarty
+
+theme: mkdocs
+
+nav:
+    - 简介:    index.md
+    - FreeSwap协议: FreeSwap.md
+    - 文档下载: 
+        白皮书:   FreeSwap_cn.pdf
+        White paper: FreeSwap_en.pdf
+    - 其他: 
+        English:  https://freeswap.github.io/Protocol/
+        联系方式:  contact.md
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+copyright: Copyright &copy; 2020-2025 <a href= "mailto:ldru@163.com">ldru@163.com</a>
+
