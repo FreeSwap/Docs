@@ -1,4 +1,5 @@
 site_name: FreeSwap去中心化交易所
+site_description: 完全免费的去中心化交易所
 
 markdown_extensions:
     - extra
@@ -17,9 +18,9 @@ nav:
     - FreeSwap协议: FreeSwap.md
     - 文档下载: 
         白皮书:   FreeSwap_cn.pdf
-        White paper: FreeSwap_en.pdf
+        White paper: 'https://freeswap.github.io/protocol/FreeSwap_en.pdf'
     - 其他: 
-        English:  https://freeswap.github.io/Protocol/
+        English:  https://freeswap.github.io/protocol/
         联系方式:  contact.md
 
 extra_javascript: 

@@ -1,6 +1,4 @@
 site_name: FreeSwap DEX Protocol
-repo_url: https://github.com/FreeSwap
-
 site_description: Swap tokens with no fee
 
 markdown_extensions:
@@ -19,8 +17,8 @@ nav:
     - Introduction:             index.md
     - FreeSwap Protocol:        FreeSwap.md
     - Downloads: 
-        'White Paper':          '../Whitepaper/FreeSwap_en.pdf'
-        'White Paper (CN)':     '../Whitepaper/FreeSwap_cn.pdf'
+        'White Paper':          FreeSwap_en.pdf
+        'White Paper (CN)':     'https://freeswap.github.io/cn/FreeSwap_cn.pdf'
     - Others: 
         Chinese:  https://freeswap.github.io/cn
         Contact:  contact.md
