@@ -18,9 +18,9 @@ nav:
     - FreeSwap协议: FreeSwap.md
     - 文档下载: 
         白皮书:   FreeSwap_cn.pdf
-        White paper: 'https://freeswap.github.io/protocol/FreeSwap_en.pdf'
+        White paper: 'https://freeswap.github.io/FreeSwap_en.pdf'
     - 其他: 
-        English:  https://freeswap.github.io/protocol/
+        English:  https://freeswap.github.io/
         联系方式:  contact.md
 
 extra_javascript: 
